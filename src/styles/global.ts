@@ -7,6 +7,20 @@ export const globalStyles = globalCss({
     margin: 0,
   },
 
+  "::-webkit-scrollbar": {
+    width: 6, 
+    height: 6, 
+  },
+
+  "::-webkit-scrollbar-track": {
+    background: "transparent",
+  },
+
+  "::-webkit-scrollbar-thumb": {
+    background: "$ignite500",
+    borderRadius: 10,
+  },
+
   body: {
     backgroundColor: "$gray900",
     color: "$gray100",
