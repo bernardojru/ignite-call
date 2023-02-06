@@ -15,6 +15,7 @@ export const CalendarHeader = styled("div", {
 
 export const CalendarTitle = styled(Text, {
   fontWeight: "$medium",
+  textTransform: 'capitalize', //transforma a primeira letra em maiúscula
 
   span: {
     color: "$gray200",
